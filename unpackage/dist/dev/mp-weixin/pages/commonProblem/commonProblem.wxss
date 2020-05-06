@@ -1,0 +1,24 @@
+
+.list {
+	margin: 40rpx 30rpx;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.2);
+	padding: 15rpx 40rpx 30rpx;
+}
+.item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #f1f1f1;
+	font-size: 30rpx;
+	line-height: 90rpx;
+}
+.item>text:nth-child(2) {
+	font-size: 26rpx;
+	color: #ddd;
+}
+

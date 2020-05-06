@@ -1,0 +1,48 @@
+
+.list {
+	margin: 40rpx 30rpx;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx 0 #ddd;
+	        box-shadow: 0 5rpx 10rpx 0 #ddd;
+	padding: 0 30rpx 40rpx;
+}
+.list-item {
+	padding: 24rpx 0;
+	border-bottom: 1rpx solid #eee;
+}
+.msg {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 10rpx;
+}
+.msg>view {
+	width: 33%;
+	line-height: 40rpx;
+}
+.btns2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	padding: 10rpx 0;
+}
+.btns2 button {
+	height: 50rpx;
+	line-height: 50rpx;
+	width: 180rpx;
+	font-size: 24rpx;
+	padding: 0;
+}
+.wait {
+	height: 70rpx;
+	text-align: right;
+	font-size: 24rpx;
+	color: #888;
+}
+

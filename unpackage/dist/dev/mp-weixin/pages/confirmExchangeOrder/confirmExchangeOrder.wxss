@@ -1,0 +1,133 @@
+
+.address-box {
+	margin: 40rpx 30rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	border-radius: 20rpx;
+	padding: 30rpx 70rpx 30rpx 90rpx;
+	position: relative;
+}
+.address-box>view {
+	line-height: 40rpx;
+}
+.address-box>text {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.address-box>.dizhi {
+	position: absolute;
+	left: 30rpx;
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 50%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.address-box>text:nth-child(3) {
+	right: 30rpx;
+	font-size: 32rpx;
+}
+.address {
+	font-size: 22rpx;
+	color: #666;
+}
+.order {
+	margin: 0 30rpx 140rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	border-radius: 20rpx;
+	padding: 30rpx;
+}
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.pic {
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+}
+.pic image {
+	width: 100%;
+	display: block;
+}
+.numbox {
+	line-height: 40rpx;
+	border: 1rpx solid #888;
+	border-radius: 8rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 24rpx;
+	float: right;
+	margin: 10rpx 0;
+}
+.numbox>.btn {
+	width: 40rpx;
+	text-align: center;
+}
+.con {
+	margin: 0 20rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.con .name {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	margin-bottom: 10rpx;
+	line-height: 36rpx;
+}
+.des {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	line-height: 36rpx;
+	font-size: 22rpx;
+	color: #888;
+}
+.price {
+	text-align: right;
+	line-height: 72rpx;
+}
+.list {
+	margin-top: 20rpx;
+}
+.item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	line-height: 70rpx;
+	height: 70rpx;
+}
+.item>view {
+	font-size: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.jifen>view:nth-child(1) {
+	font-weight: 600;
+	color: red;
+	font-size: 28rpx;
+}
+.jifen>view:nth-child(2) {
+	color: #aaa;
+	font-size: 24rpx;
+	text-decoration: line-through;
+	text-align: right;
+}
+

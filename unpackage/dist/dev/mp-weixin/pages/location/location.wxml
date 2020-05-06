@@ -1,0 +1,1 @@
+<view><city-select class="vue-ref" vue-id="c9d438c0-1" formatName="{{formatName}}" activeCity="{{activeCity}}" hotCity="{{hotCity}}" obtainCitys="{{obtainCitys}}" isSearch="{{true}}" data-ref="citys" data-event-opts="{{[['^cityClick',[['cityClick']]],['^childCity',[['getLocalCity']]]]}}" bind:cityClick="__e" bind:childCity="__e" bind:__l="__l"></city-select></view>

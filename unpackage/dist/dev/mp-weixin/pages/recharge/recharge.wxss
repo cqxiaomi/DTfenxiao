@@ -1,0 +1,65 @@
+
+.top image {
+	width: 120rpx;
+	margin-bottom: 10rpx;
+	height: auto;
+}
+.top {
+	background-color: #55AFFD;
+	color: #fff;
+	padding: 30rpx 0;
+	text-align: center;
+}
+.recharge-money {
+	padding: 30rpx;
+	line-height: 40rpx;
+	color: red;
+	position: relative;
+}
+.recharge-money image {
+	width: 120rpx;
+	position: absolute;
+	left: 20rpx;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	height: auto;
+}
+.zhifu {
+	padding: 0 30rpx;
+	border-top: 1rpx solid #ddd;
+	border-bottom: 1rpx solid #ddd;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.btn {
+	width: 540rpx;
+	margin: 50rpx auto;
+	background-color: #55AFFD;
+	line-height: 80rpx;
+	text-align: center;
+	color: #fff;
+	-webkit-box-shadow: 0 3rpx 10rpx 3rpx #ddd;
+	        box-shadow: 0 3rpx 10rpx 3rpx #ddd;
+}
+#check {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 40rpx;
+	color: red;
+}
+.money-box {
+	border: 1rpx solid red;
+	border-radius: 20rpx;
+	position: relative;
+	padding: 20rpx;
+	padding-left: 180rpx;
+	overflow: hidden;
+}
+

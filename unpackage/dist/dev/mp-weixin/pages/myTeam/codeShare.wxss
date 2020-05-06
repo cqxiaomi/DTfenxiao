@@ -1,0 +1,21 @@
+
+.pic {
+	width: 260rpx;
+	height: 260rpx;
+	background-color: #000;
+	margin: 100rpx auto 20rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+}
+.box {
+	position: fixed;
+	width: 690rpx;
+	top: 40rpx;
+	left: 30rpx;
+	bottom: 40rpx;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+

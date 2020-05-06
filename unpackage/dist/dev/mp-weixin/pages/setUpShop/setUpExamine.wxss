@@ -1,0 +1,14 @@
+
+.wait {
+	text-align: center;
+	color: #F57469;
+	margin-top: 60rpx;
+}
+.null{
+	text-align: center;
+}
+.null image{
+	width: 250rpx;
+	margin-top: 200rpx;
+}
+

@@ -1,0 +1,142 @@
+
+.title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	padding: 10rpx 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #fff;
+	z-index: 100;
+}
+.title>view {
+	position: relative;
+	height: 50rpx;
+	line-height: 50rpx;
+	padding: 0 10rpx;
+}
+.title>view>view {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	font-size: 24rpx;
+	line-height: 50rpx;
+	color: #888;
+	font-weight: normal !important;
+}
+.under {
+	color: red;
+	font-weight: 800;
+	position: relative;
+}
+.under::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 6rpx;
+	border-radius: 3rpx;
+	background-color: #F7756A;
+}
+.bottom1 {
+	position: fixed;
+	width: 100%;
+	border: 1rpx solid red;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	bottom: 0;
+}
+.bottom1>view {
+	width: 50%;
+	line-height: 100rpx;
+	height: 100rpx;
+	text-align: center;
+}
+.list {
+	padding: 20rpx 0;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	margin-bottom: 20rpx;
+}
+.item {
+	padding: 15rpx 30rpx;
+	margin: 15rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.item .pic {
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0 0 10rpx 2rpx #eee;
+	        box-shadow: 0 0 10rpx 2rpx #eee;
+}
+.item .pic image {
+	width: 100%;
+	display: block;
+}
+.item .con {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 20rpx;
+	border-bottom: 1rpx solid #f5f5f5;
+	padding-top: 20rpx;
+	position: relative;
+}
+.status {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #888;
+	font-size: 24rpx;
+}
+.name-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.checkbox {
+	position: relative;
+	width: 50rpx;
+}
+.checkbox text {
+	position: absolute;
+	font-size: 34rpx;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.null {
+	width: 250rpx;
+	margin: 320rpx auto;
+}
+.null image {
+	width: 100%;
+}
+.des {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: normal;
+}
+

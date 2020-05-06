@@ -1,0 +1,1 @@
+<view><view class="list"><block wx:for="{{problems}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['toIntroduction',['$0'],[[['problems','',index]]]]]]]}}" class="item" bindtap="__e"><text>{{item}}</text><text class="lg text-gray cuIcon-right"></text></view></block></view></view>

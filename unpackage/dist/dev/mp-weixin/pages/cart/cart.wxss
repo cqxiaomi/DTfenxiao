@@ -1,0 +1,246 @@
+
+.shop_list {
+	margin-bottom: 200rpx;
+}
+.listItem_top,
+.goods_item {
+	padding: 0 60rpx;
+	position: relative;
+}
+.listItem_top {
+	line-height: 60rpx;
+}
+.goods_item {
+	margin: 25rpx 0;
+	margin-left: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.shop_list_item {
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 0 15rpx 2rpx #ddd;
+	        box-shadow: 0 0 15rpx 2rpx #ddd;
+	background-color: #fff;
+	margin: 30rpx 20rpx;
+	padding: 10rpx 0;
+}
+.goods_pic {
+	width: 160rpx;
+	height: 160rpx;
+	margin-right: 20rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0 0 10rpx 2rpx #eee;
+	        box-shadow: 0 0 10rpx 2rpx #eee;
+}
+.goods_msg {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	position: relative;
+	overflow: hidden;
+}
+.goodsMsg_bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	line-height: 40rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.numbox {
+	line-height: 50rpx;
+	border: 1rpx solid #ccc;
+	border-radius: 8rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 24rpx;
+}
+.numbox>.btn {
+	width: 50rpx;
+	text-align: center;
+	font-size: 30rpx;
+}
+.list {
+	margin: 30rpx;
+	border-radius: 20rpx;
+	padding: 20rpx 0;
+	-webkit-box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.2);
+}
+.list-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 30rpx 40rpx 30rpx 70rpx;
+	position: relative;
+}
+.list-item .pic {
+	width: 160rpx;
+	height: 160rpx;
+	margin-right: 20rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+}
+.list-item .pic image {
+	width: 100%;
+	display: block;
+}
+.content {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.content .con {
+	padding: 10rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 2px solid #F0F0F0;
+	margin-bottom: 15rpx;
+}
+.name-box {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-right: 20rpx;
+	overflow: hidden;
+}
+.name-box>view {
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.price {
+	line-height: 40rpx;
+}
+.check {
+	font-size: 32rpx !important;
+	position: absolute;
+	top: 50%;
+	left: 20rpx;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.delete {
+	font-size: 40rpx !important;
+	position: absolute;
+	top: 50%;
+	right: 20rpx;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.allcheck {
+	font-size: 32rpx;
+	padding-right: 5rpx;
+}
+.cart-bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: 1rpx solid #f5f5f5;
+	line-height: 100rpx;
+	height: 100rpx;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-align: right;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.youLike {
+	margin-bottom: 140rpx;
+}
+.youLike .title {
+	text-align: center;
+	margin: 50rpx 0 60rpx;
+	font-size: 30rpx;
+}
+.youLike .title text {
+	padding: 0 20rpx;
+	position: relative;
+	font-weight: 600;
+}
+.youLike .title text::before,
+.youLike .title text::after {
+	content: "";
+	width: 30rpx;
+	height: 2rpx;
+	position: absolute;
+	top: 50%;
+	margin-top: -1rpx;
+	background-color: #666;
+}
+.youLike .title text::before {
+	left: -30rpx;
+}
+.youLike .title text::after {
+	right: -30rpx;
+}
+.cart-bottom text {
+	font-size: 28rpx;
+}
+.goods_name {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.des {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	font-size: 24rpx;
+	color: #888;
+}
+.cartGoodsName {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.cart-box {
+	padding: 60rpx 30rpx 30rpx;
+	width: 80%;
+	position: relative;
+}
+.null {
+	text-align: center;
+	color: #aaa;
+	margin-top: 200rpx;
+	margin-bottom: 200rpx;
+}
+.null image {
+	width: 300rpx;
+	height: auto;
+}
+.null>view {
+	margin-top: 10rpx;
+}
+.clearAll {
+	display: inline-block;
+	line-height: 50rpx;
+	border-radius: 25rpx;
+	padding: 0 15rpx;
+	background-color: #ddd;
+}
+

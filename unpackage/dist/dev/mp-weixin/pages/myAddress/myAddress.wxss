@@ -1,0 +1,62 @@
+
+.address {
+	margin-bottom: 180rpx;
+}
+.address-item {
+	margin: 40rpx 30rpx;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.2);
+	padding: 20rpx 30rpx 30rpx;
+}
+.item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #F5F5F5;
+	line-height: 45rpx;
+	padding: 20rpx 0;
+	font-size: 30rpx;
+}
+.item .txt {
+	width: 160rpx;
+}
+.item .con {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.item .con input {
+	border: 1rpx solid #ddd;
+	padding: 0 10rpx;
+	border-radius: 10rpx;
+	height: 100%;
+}
+.checkbox {
+	margin-top: 20rpx;
+	font-size: 30rpx;
+}
+.my-btns {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	margin-top: 20rpx;
+}
+.my-btns button {
+	line-height: 50rpx;
+	height: 50rpx;
+	width: 160rpx;
+	padding: 0;
+}
+.address-box {
+	padding: 60rpx 30rpx 30rpx;
+	width: 80%;
+	position: relative;
+}
+.null {
+	text-align: center;
+}
+

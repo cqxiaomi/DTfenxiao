@@ -1,0 +1,85 @@
+
+.pic{
+	text-align: center;
+	margin: 40rpx auto;
+	position: relative;
+	width: 690rpx;
+}
+.pic image{
+	width: 100%;
+	display: block;
+}
+.pic .title{
+	position: absolute;
+	top: 50rpx;
+	width: 100%;
+	color: #fff;
+	letter-spacing: 2rpx;
+}
+.btn-box{
+	position: absolute;
+	bottom: 80rpx;
+	width: 100%;
+}
+.btn-box button{
+	background-color: #fff !important;
+	font-size: 24rpx;
+	margin: 0 20rpx;
+	width: 180rpx;
+	padding: 0;
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.goodsList {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 0 30rpx;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.goods-item {
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	width: 335rpx;
+	margin-bottom: 30rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.goods-item .pic {
+	width: 335rpx;
+	height: 335rpx;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 0;
+}
+.goods-item .pic image {
+	width: 100%;
+	display: block;
+}
+.goods-item .con{
+	padding: 10rpx 20rpx;
+}
+.goodsname {
+	font-weight: 800;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.goods-price {
+	position: absolute;
+	bottom: 0;
+	line-height: 40rpx;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	width: 100%;
+	letter-spacing: 1rpx;
+}
+

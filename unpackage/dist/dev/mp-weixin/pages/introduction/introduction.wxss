@@ -1,0 +1,49 @@
+
+page {
+	font-size: 30rpx;
+}
+.about {
+	position: fixed;
+	width: 690rpx;
+	top: 40rpx;
+	bottom: 40rpx;
+	left: 30rpx;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	padding: 0 30rpx;
+}
+.title,
+.bottom {
+	text-align: center;
+}
+.title {
+	margin-top: 40rpx;
+	font-size: 40rpx;
+	font-weight: 600;
+	letter-spacing: 1rpx;
+	/* text-shadow: 3upx 3upx 2upx #333; */
+}
+.bottom {
+	position: absolute;
+	width: 690rpx;
+	left: 0;
+	bottom: 30rpx;
+	font-size: 24rpx;
+	color: #aaa;
+}
+.company {
+	margin: 20rpx 0;
+}
+.txt {
+	line-height: 40rpx;
+	text-align: justify;
+}
+.scroll {
+	position: absolute;
+	width: 570rpx;
+	left: 60rpx;
+	bottom: 60rpx;
+	top: 120rpx;
+}
+

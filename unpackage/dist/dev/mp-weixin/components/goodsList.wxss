@@ -1,0 +1,66 @@
+
+.goodsList {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 40rpx 30rpx 0;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.goods-item {
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	width: 48%;
+	margin-bottom: 60rpx;
+	padding-bottom: 20rpx;
+	position: relative;
+}
+.tip {
+	position: absolute;
+	width: 20rpx;
+	bottom: 26rpx;
+	right: 30rpx;
+}
+.goods-item .pic {
+	width: 270rpx;
+	height: 270rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+	position: relative;
+	top: -30rpx;
+	margin: 0 auto;
+}
+.ziying{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #FE2337;
+	color: #fff;
+	border-top-left-radius: 20rpx;
+	line-height: 40rpx;
+	padding: 0 15rpx;
+	font-weight: 600;
+	font-size: 26rpx;
+}
+.goods-item .pic image {
+	width: 100%;
+	display: block;
+}
+.goods-item .con view {
+	width: 270rpx;
+	margin: 0 auto;
+	position: relative;
+	top: -5rpx;
+}
+.goodsname {
+	font-weight: 600;
+	font-size: 30rpx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+

@@ -1,0 +1,93 @@
+
+.search {
+	padding: 20rpx 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	top: 0;
+	background-color: #55AFFD;
+	z-index: 100;
+}
+.inputbox {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 70rpx;
+	line-height: 70rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-color: #F7F7F7;
+	border-radius: 35rpx;
+}
+.inputbox input {
+	height: 70rpx;
+	line-height: 70rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding-left: 30rpx;
+}
+.history,
+.hot {
+	padding: 30rpx 50rpx;
+}
+.subtitle {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.con {
+	overflow: hidden;
+	margin: 20rpx 0 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.con>view{
+	width: 144.5rpx;
+	margin: 10rpx 0;
+}
+.con .key {
+	text-align: center;
+	padding: 0 10rpx;
+	height: 55rpx;
+	line-height: 55rpx;
+	border-radius: 15rpx;
+	color: #666;
+	font-size: 24rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #f7f7f7;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.box {
+	padding: 60rpx 30rpx 30rpx;
+	width: 80%;
+	position: relative;
+}
+.containA {
+	margin-top: 110rpx;
+}
+
+

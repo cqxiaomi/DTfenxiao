@@ -1,0 +1,126 @@
+
+page{
+	background-color: #f1f1f1;
+}
+.input-box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #F1F1F1;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.input-box .span{
+	width: 120rpx;
+}
+.input-box input{
+	height: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding: 0 20rpx;
+}
+.code-btn{
+	margin: 10rpx 0;
+	line-height: 60rpx;
+	height: 60rpx;
+}
+.box1{
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	margin: 30rpx;
+	padding: 30rpx;
+	background-color: #fff;
+}
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 20rpx 0;
+}
+.pic {
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+}
+.pic image {
+	width: 100%;
+	display: block;
+}
+.price-box {
+	position: relative;
+}
+.numbox {
+	line-height: 40rpx;
+	border: 1rpx solid #888;
+	border-radius: 8rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 24rpx;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.numbox>.btn {
+	width: 40rpx;
+	text-align: center;
+}
+.con {
+	margin: 0 20rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.con .name {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	line-height: 40rpx;
+}
+.des {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	font-size: 22rpx;
+	color: #888;
+	line-height: 40rpx;
+}
+.price {
+	text-align: right;
+	line-height: 40rpx;
+}
+.order-bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	line-height: 100rpx;
+	height: 100rpx;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.money-msg{
+	padding: 0 30rpx;
+}
+.pay-btn{
+	width: 220rpx;
+	text-align: center;
+	color: #fff;
+	background-color: red;
+}
+

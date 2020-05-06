@@ -1,0 +1,121 @@
+
+.null {
+	position: relative;
+	top: 100rpx;
+	width: 250rpx;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.null image {
+	width: 100%;
+	display: block;
+}
+page{
+	background-color: #f5f5f5;
+}
+.search {
+	padding: 20rpx 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	top: 0;
+	background-color: #55AFFD;
+	z-index: 100;
+}
+.inputbox {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 70rpx;
+	line-height: 70rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-color: #fff;
+	border-radius: 35rpx;
+}
+.inputbox input {
+	height: 70rpx;
+	line-height: 70rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding-left: 30rpx;
+}
+.font {
+	font-size: 24rpx;
+}
+.goods-msg {
+	padding: 20rpx 20rpx 30rpx;
+}
+.goodsList {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 60rpx 30rpx 0;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.goods-item {
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	width: 48%;
+	margin-bottom: 60rpx;
+	padding-bottom: 20rpx;
+	position: relative;
+	background-color: #fff;
+}
+.tip {
+	position: absolute;
+	width: 20rpx;
+	bottom: 26rpx;
+	right: 30rpx;
+}
+.goods-item .pic {
+	width: 270rpx;
+	height: 270rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+	position: relative;
+	top: -30rpx;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0 0 10rpx 5rpx #eee;
+	        box-shadow: 0 0 10rpx 5rpx #eee;
+	background-color: #fff;
+}
+.goods-item .pic image {
+	width: 100%;
+	display: block;
+}
+.goods-item .con view {
+	width: 270rpx;
+	margin: 0 auto;
+	position: relative;
+	top: -5rpx;
+}
+.goodsname {
+	font-weight: 600;
+	font-size: 30rpx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+

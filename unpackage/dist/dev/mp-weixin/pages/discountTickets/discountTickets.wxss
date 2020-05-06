@@ -1,0 +1,40 @@
+
+page {
+	background-color: #f7f7f7;
+}
+.null {
+	width: 250rpx;
+	margin: 320rpx auto;
+}
+.null image {
+	width: 100%;
+}
+.tickets {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 30rpx;
+	-webkit-box-shadow: 0 0 10rpx 2rpx #ddd;
+	        box-shadow: 0 0 10rpx 2rpx #ddd;
+}
+.tic-left {
+	width: 35%;
+	background-color: #54D3C5;
+	height: 180rpx;
+	line-height: 180rpx;
+	color: #fff;
+	font-size: 34rpx;
+	text-align: center;
+}
+.tic-right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: left;
+	padding: 10rpx 20rpx;
+	background-color: #fff;
+}
+

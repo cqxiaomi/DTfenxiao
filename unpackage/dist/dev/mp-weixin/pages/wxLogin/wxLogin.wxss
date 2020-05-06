@@ -1,0 +1,13 @@
+
+.con {
+	margin: 0 60rpx;
+}
+.top {
+	margin-top: 100rpx;
+	text-align: center;
+}
+.logo {
+	width: 200rpx;
+	height: auto;
+}
+

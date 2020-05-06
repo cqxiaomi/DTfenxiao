@@ -1,0 +1,128 @@
+
+.order,
+.message {
+	margin: 40rpx 30rpx;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	padding: 10rpx 0 20rpx;
+}
+.message {
+	padding: 40rpx 30rpx;
+}
+.order-top {
+	line-height: 60rpx;
+	padding: 0 30rpx;
+	border-bottom: 1rpx solid #f1f1f1;
+}
+.msg-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 8rpx 0;
+}
+.msg-item>view {
+	line-height: 40rpx;
+	font-size: 24rpx;
+}
+.msg-item>view:nth-child(1) {
+	width: 140rpx;
+	margin-right: 20rpx;
+}
+.msg-item>view:nth-child(2) {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	color: #888;
+}
+.bottom-btns {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	margin-top: 30rpx;
+}
+.bottom-btns button {
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 24rpx;
+	width: 180rpx;
+	padding: 0;
+}
+.total-msg text {
+	font-size: 24rpx;
+}
+.line-888 {
+	color: #888;
+}
+.box {
+	width: 70%;
+	padding: 40rpx 30rpx 30rpx;
+}
+.item-box {
+	padding: 20rpx 0;
+}
+.item {
+	padding: 15rpx 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.item .pic {
+	width: 140rpx;
+	height: 140rpx;
+	overflow: hidden;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0 0 10rpx 2rpx #eee;
+	        box-shadow: 0 0 10rpx 2rpx #eee;
+}
+.item .pic image {
+	width: 100%;
+	display: block;
+}
+.item .con {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 20rpx;
+	padding-top: 20rpx;
+	position: relative;
+}
+.con .name,
+.con .txt {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	line-height: 40rpx;
+}
+.txt {
+	border-bottom: 1rpx solid #f5f5f5;
+	padding-bottom: 10rpx; 
+	line-height: 40rpx;
+}
+.remark {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	color: #888;
+	font-size: 22rpx;
+	margin-right: 100rpx;
+}
+.des {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	font-size: 28rpx;
+	margin-right: 20rpx;
+}
+

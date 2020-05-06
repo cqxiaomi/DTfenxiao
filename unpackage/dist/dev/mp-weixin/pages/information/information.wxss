@@ -1,0 +1,126 @@
+
+.null {
+	width: 250rpx;
+	margin: 320rpx auto;
+}
+.null image {
+	width: 100%;
+}
+.title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	padding: 10rpx 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #fff;
+	z-index: 100;
+}
+.title>view {
+	line-height: 50rpx;
+	height: 50rpx;
+	padding: 0 10rpx;
+}
+.under {
+	color: red;
+	font-weight: 800;
+	position: relative;
+}
+.under::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 6rpx;
+	border-radius: 3rpx;
+	background-color: #F7756A;
+}
+.time-title {
+	width: 240rpx;
+	line-height: 50rpx;
+	letter-spacing: 2rpx;
+	text-align: center;
+	border-radius: 10rpx;
+	font-size: 22rpx;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+}
+.item {
+	-webkit-box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	margin: 30rpx;
+	border-radius: 20rpx;
+	padding: 20rpx 30rpx;
+	line-height: 50rpx;
+}
+.order {
+	margin: 0 30rpx 40rpx;
+	-webkit-box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.1);
+	border-radius: 20rpx;
+}
+.checkbox {
+	/* display: flex;
+	justify-content: space-between; */
+	line-height: 60rpx;
+	padding: 10rpx 30rpx 0;
+	border-bottom: 1rpx solid #f1f1f1;
+}
+.order-con {
+	padding: 20rpx 30rpx;
+}
+.order-con .pic {
+	width: 100rpx;
+	height: 100rpx;
+	overflow: hidden;
+	border-radius: 10rpx;
+}
+.order-con .pic image {
+	width: 100%;
+	display: block;
+}
+.order-con .goods {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 20rpx;
+	line-height: 40rpx;
+	position: relative;
+}
+.bottom1 {
+	position: fixed;
+	width: 100%;
+	border: 1rpx solid red;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	bottom: 100rpx;
+}
+.bottom1>view {
+	width: 50%;
+	line-height: 90rpx;
+	height: 90rpx;
+	text-align: center;
+}
+.swiper-item {
+	padding-bottom: 100rpx;
+}
+.goods_name {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.goods_remark {
+	font-size: 24rpx;
+	color: #888;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+

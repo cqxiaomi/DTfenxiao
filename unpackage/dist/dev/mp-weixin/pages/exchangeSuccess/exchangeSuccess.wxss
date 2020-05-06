@@ -1,0 +1,14 @@
+
+.btn {
+	margin: 80rpx auto;
+	width: 80%;
+	line-height: 80rpx;
+	border-radius: 40rpx;
+	text-align: center;
+	border: 2rpx solid #ccc;
+	color: #888;
+}
+.btn:hover {
+	background-color: #f1f1f1;
+}
+

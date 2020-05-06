@@ -1,0 +1,1 @@
+<view><view class="about"><view class="title">关于我们</view><view class="con"><view class="company">公司简介:</view><scroll-view class="scroll" scroll-y="true"><view class="txt"></view></scroll-view></view><view class="bottom">Copyright © 大唐国投医药有限公司</view></view></view>

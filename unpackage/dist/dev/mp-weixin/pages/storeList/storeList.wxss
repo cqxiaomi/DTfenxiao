@@ -1,0 +1,132 @@
+
+.null image {
+	width: 200rpx;
+	margin-bottom: 10rpx;
+}
+.null {
+	text-align: center;
+	font-size: 24rpx;
+	color: #aaa;
+	margin-top: 20%;
+}
+page {
+	font-size: 30rpx;
+}
+.search-box{
+	margin: 0 30rpx;
+	border-radius: 40rpx;
+	-webkit-box-shadow: 0 3rpx 10rpx 2rpx #ddd;
+	        box-shadow: 0 3rpx 10rpx 2rpx #ddd;
+	height: 80rpx;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.shops{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #f5f5f5;
+}
+.shop-l{
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-box-shadow: 0 0 10rpx 5rpx #eee;
+	        box-shadow: 0 0 10rpx 5rpx #eee;
+}
+.shop-l image{
+	width: 100%;
+	display: block;
+}
+.shop-m{
+	padding: 5rpx 0;
+	margin-left: 20rpx;
+	line-height: 40rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.shop-r{
+	line-height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.shop-scroll{
+	position: fixed;
+	bottom: 0;
+	top: 530rpx;
+	padding: 0 30rpx;
+}
+.bg {
+	width: 690rpx;
+	margin: 20rpx 30rpx;
+	height: 400rpx;
+	border-radius: 20rpx;
+	position: relative;
+	background-size: cover;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.card {
+	width: 650rpx;
+	position: fixed;
+	top: 320rpx;
+	left: 50rpx;
+	bottom: 50rpx;
+	-webkit-box-shadow: 0 6rpx 6rpx 0 #ddd;
+	        box-shadow: 0 6rpx 6rpx 0 #ddd;
+	border-radius: 20rpx;
+	background-color: #fff;
+	padding: 0 20rpx;
+}
+.card-header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	padding: 30rpx 0;
+	font-weight: 600;
+}
+.card-header>view {
+	line-height: 60rpx;
+	background-color: #F7D5D5;
+	border-radius: 30rpx;
+	width: 160rpx;
+	text-align: center;
+}
+.storeItem {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	line-height: 40rpx;
+	padding-bottom: 40rpx;
+}
+.storeItem>view {
+	width: 160rpx;
+	text-align: center;
+}
+.scroll {
+	position: absolute;
+	top: 140rpx;
+	bottom: 20rpx;
+	width: 610rpx;
+}
+

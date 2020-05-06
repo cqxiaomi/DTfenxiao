@@ -1,0 +1,29 @@
+
+.END {
+	text-align: center;
+	margin-bottom: 40rpx;
+}
+.END text {
+	position: relative;
+	letter-spacing: 2rpx;
+	font-size: 18rpx;
+	color: #aaa;
+	padding: 0 20rpx;
+}
+.END text::after,
+.END text::before {
+	content: '';
+	position: absolute;
+	width: 30rpx;
+	height: 2rpx;
+	margin-top: -1rpx;
+	top: 50%;
+	background-color: #aaa;
+}
+.END text::after {
+	right: -30rpx;
+}
+.END text::before {
+	left: -30rpx;
+}
+

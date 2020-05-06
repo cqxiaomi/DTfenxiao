@@ -1,0 +1,235 @@
+
+.goodsList {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 30rpx 30rpx 0;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.goods-item {
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+	width: 335rpx;
+	margin-bottom: 30rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.goods-item .pic {
+	width: 335rpx;
+	height: 335rpx;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.goods-item .pic image {
+	width: 100%;
+	display: block;
+}
+.goods-item .con {
+	padding: 10rpx 20rpx;
+}
+.goodsname {
+	font-weight: 800;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.goods-price {
+	position: absolute;
+	bottom: 0;
+	line-height: 40rpx;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	width: 100%;
+	letter-spacing: 1rpx;
+}
+page {
+	background-color: #F1F1F1;
+}
+.coupons {
+	width: 180rpx;
+	text-align: center;
+	border: 2rpx solid #ccc;
+	margin: 0 20rpx;
+}
+.coupons-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-color: #fff;
+	padding: 20rpx 30rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.sub-item-icon {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 0 10rpx 5rpx #eee;
+	        box-shadow: 0 0 10rpx 5rpx #eee;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.nav .cu-item {
+	line-height: 80rpx;
+	height: 80rpx;
+}
+.ad-swiper {
+	min-height: 120rpx !important;
+}
+.search {
+	/* background-image: linear-gradient(#0C90FF, #55AFFD); */
+	background-color: #55AFFD;
+	padding: 180rpx 0 20rpx;
+	/* padding: 20upx 0; */
+	position: relative;
+	height: 270rpx;
+}
+.city-box{
+	position: absolute;
+	bottom: 100rpx;
+	left: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 60%;
+	line-height: 60rpx;
+}
+.search-box {
+	height: 70rpx;
+	line-height: 70rpx;
+	background-color: #fff;
+	border-radius: 35rpx;
+	margin: 0 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.search-l {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding-left: 15rpx;
+}
+.search-c {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding-left: 30rpx;
+}
+.search-r {
+	padding: 0 20rpx;
+	text-align: center;
+	font-size: 34rpx;
+}
+.text-pink {
+	/* color: #FF4465 !important; */
+	color: #E50D32 !important;
+	position: relative;
+}
+.cu-item {
+	text-align: center;
+}
+.shops {
+	background-color: #fff;
+	border-radius: 30rpx;
+	margin: 20rpx 30rpx;
+	padding: 20rpx;
+	-webkit-box-shadow: 0 0 10rpx 2rpx #eee;
+	        box-shadow: 0 0 10rpx 2rpx #eee;
+}
+.shops-scroll {
+	position: fixed;
+	bottom: 0;
+	/* top: 190upx; */
+	top: 350rpx;
+}
+.shop-con-top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.shop-msg {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.shop-btn>text {
+	display: inline-block;
+	line-height: 60rpx;
+	padding: 0 20rpx;
+	background-color: #FF4465;
+	color: #fff;
+	border-radius: 30rpx;
+	font-size: 26rpx;
+}
+.shop-pic {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-box-shadow: 0 0 5rpx 2rpx #DDDDDD;
+	        box-shadow: 0 0 5rpx 2rpx #DDDDDD;
+}
+.shop-name-con {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin: 0 20rpx;
+	line-height: 40rpx;
+}
+.shop-goods {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-top: 20rpx;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.city {
+	width: 100rpx;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 800;
+	font-size: 30rpx;
+}
+.city-txt{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 800;
+	font-size: 34rpx;
+	padding:0 10rpx;
+}
+

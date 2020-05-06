@@ -1,0 +1,1 @@
+<view><image style="width:100%;" src="../../static/mine/bg.png" mode="widthFix"></image><button type="primary" data-event-opts="{{[['tap',[['toLive',['$event']]]]]}}" bindtap="__e">进入直播间</button></view>

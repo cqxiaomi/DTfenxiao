@@ -1,0 +1,1 @@
+<view><view class="about"><view class="title">{{title}}</view><view class="con"><scroll-view class="scroll" scroll-y="true"><view class="txt"></view></scroll-view></view></view></view>

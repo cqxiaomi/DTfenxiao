@@ -1,0 +1,46 @@
+
+.top {
+	background-color: #55AFFD;
+	padding-top: 30rpx;
+}
+.top-box {
+	padding-top: 60rpx;
+	margin: 30rpx;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+	text-align: center;
+}
+.top-box image {
+	width: 120rpx;
+}
+.zhifu {
+	padding: 0 30rpx;
+	border-top: 1rpx solid #ddd;
+	border-bottom: 1rpx solid #ddd;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.zhifu image {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+}
+.btn {
+	width: 540rpx;
+	margin: 50rpx auto;
+	background-color: #55AFFD;
+	line-height: 80rpx;
+	text-align: center;
+	color: #fff;
+	-webkit-box-shadow: 0 3rpx 10rpx 3rpx #ddd;
+	        box-shadow: 0 3rpx 10rpx 3rpx #ddd;
+}
+

@@ -1,0 +1,36 @@
+
+.money {
+	text-align: center;
+	margin-top: 80rpx;
+	margin-bottom: 50rpx;
+}
+.payment {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 20rpx 30rpx;
+	border-radius: 20rpx;
+	line-height: 100rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	padding: 0 40rpx;
+}
+.title {
+	margin: 0 50rpx;
+}
+.txt {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 20rpx;
+	font-size: 26rpx;
+}
+.time text {
+	background-color: #ddd;
+	padding: 0 8rpx;
+	margin: 0 5rpx;
+}
+

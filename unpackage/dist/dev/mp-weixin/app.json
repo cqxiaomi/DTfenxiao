@@ -1,0 +1,123 @@
+{
+  "pages": [
+    "pages/indexPage/indexPage",
+    "pages/integralMall/integralMall",
+    "pages/live/live",
+    "pages/authentication/authentication",
+    "pages/liveRecharge/liveRecharge",
+    "pages/pointShoppingMall/pointShoppingMall",
+    "pages/recharge/recharge",
+    "pages/confirmOrder/confirmOrder",
+    "pages/cart/cart",
+    "pages/searchDetail/searchDetail",
+    "pages/beShop/beShop",
+    "pages/paySuccess/paySuccess",
+    "pages/marketTraining/marketTraining",
+    "pages/beShop/steps",
+    "pages/classifyPage/classifyPage",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/myTeam/myTeam",
+    "pages/myTeam/shopTeam",
+    "pages/classify/classify",
+    "pages/morePointGoods/morePointGoods",
+    "pages/exchangeSuccess/exchangeSuccess",
+    "pages/salesData/salesData",
+    "pages/wxLogin/wxLogin",
+    "pages/storeList/storeList",
+    "pages/cashWithdrawal/cashWithdrawal",
+    "pages/cashRecode/cashRecode",
+    "pages/orderPay/orderPay",
+    "pages/expressInfo/expressInfo",
+    "pages/shareOrder/shareOrder",
+    "pages/bindMobile/bindMobile",
+    "pages/questions/questions",
+    "pages/myCollection/myCollection",
+    "pages/returnGoods/returnGoods",
+    "pages/chooseAftersaleType/chooseAftersaleType",
+    "pages/orders/orders",
+    "pages/feedback/feedback",
+    "pages/information/information",
+    "pages/goodsDetail/goodsDetail",
+    "pages/addAddress/addAddress",
+    "pages/aboutUs/aboutUs",
+    "pages/settings/settings",
+    "pages/integralDetails/integralDetails",
+    "pages/search/search",
+    "pages/memberMessage/memberMessage",
+    "pages/friendRecord/friendRecord",
+    "pages/storeCenter/storeCenter",
+    "pages/commonProblem/commonProblem",
+    "pages/myAddress/myAddress",
+    "pages/setUpShop/setUpShop",
+    "pages/setUpShop/setUpExamine",
+    "pages/changePassword/changePassword",
+    "pages/myIntegraOrder/myIntegraOrder",
+    "pages/integralGoodsDetail/integralGoodsDetail",
+    "pages/confirmExchangeOrder/confirmExchangeOrder",
+    "pages/returnDetail/returnDetail",
+    "pages/afterSaleRecode/afterSaleRecode",
+    "pages/orderDetail/orderDetail",
+    "pages/moreGoods/moreGoods",
+    "pages/questionDetail/questionDetail",
+    "pages/myTeam/codeShare",
+    "pages/exchangeOrderDetail/exchangeOrderDetail",
+    "pages/marketTraining/trainingDetail",
+    "pages/introduction/introduction",
+    "pages/location/location",
+    "pages/discountTickets/discountTickets",
+    "pages/couponDetail/couponDetail",
+    "pages/moreCoupons/moreCoupons",
+    "pages/exchangeCoupon/exchangeCoupon"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#55AFFD",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#55AFFD",
+    "list": [
+      {
+        "pagePath": "pages/indexPage/indexPage",
+        "text": "首页",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index(1).png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "static/tabbar/classify.png",
+        "selectedIconPath": "static/tabbar/classify(1).png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tabbar/shop.png",
+        "selectedIconPath": "static/tabbar/shop(1).png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine(1).png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {
+    "goods-list": "/components/goodsList",
+    "order-goods-list": "/components/orderGoodsList",
+    "end-tip": "/components/endTip",
+    "bottom-btn": "/components/bottomBtn"
+  }
+}

@@ -1,0 +1,45 @@
+
+.message {
+	margin: 30rpx 30rpx 0;
+}
+.message>view {
+	line-height: 50rpx;
+	font-size: 32rpx;
+}
+.express_status {
+	width: 200rpx;
+	line-height: 80rpx !important;
+	font-size: 40rpx !important;
+	font-weight: 600;
+}
+.cu-timeline>.cu-item {
+	padding-left: 220rpx;
+	font-size: 28rpx;
+}
+.time {
+	position: absolute;
+	top: 30rpx;
+	left: 10rpx;
+	width: 160rpx;
+	text-align: center;
+	/* background-color: #fff; */
+	z-index: 100;
+}
+.cu-timeline>.cu-item::after {
+	left: 190rpx;
+}
+.cu-timeline>.cu-item[class*="cuIcon-"]::before,
+.cu-timeline>.cu-item::before {
+	left: 165rpx;
+	top: 30rpx;
+	font-size: 36rpx;
+}
+.null {
+	width: 300rpx;
+	margin: 200rpx auto;
+	text-align: center;
+}
+.null image {
+	width: 90%;
+}
+

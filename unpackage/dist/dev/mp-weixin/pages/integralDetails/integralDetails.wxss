@@ -1,0 +1,29 @@
+
+.Integral {
+	margin: 40rpx 30rpx;
+	-webkit-box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+	border-radius: 20rpx;
+	padding: 20rpx 30rpx;
+}
+.subtitle {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	line-height: 45rpx;
+}
+.jifen {
+	font-weight: 600;
+}
+.date,.orderno {
+	color: #888;
+	font-size: 28rpx;
+}
+.con{
+	line-height:50rpx;
+	height:100rpx;
+}
+
